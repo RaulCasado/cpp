@@ -13,7 +13,7 @@ bool bsp(const Point a, const Point b, const Point c, const Point point) {
     float areaPAB = calculateArea(point, a, b);
     float areaPBC = calculateArea(point, b, c);
     float areaPAC = calculateArea(point, a, c);
-
+    
     if (areaPAB + areaPBC + areaPAC == areaABC) {
         if (areaPAB > 0 && areaPBC > 0 && areaPAC > 0) {
             return true;
