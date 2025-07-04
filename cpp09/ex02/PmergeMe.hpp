@@ -29,15 +29,12 @@ private:
     void displayBefore();
     void displayAfter();
     
-    // Ford-Johnson para vector
     void fordJohnsonVector(std::vector<int>& vec);
     void insertionSortVector(std::vector<int>& vec);
     
-    // Ford-Johnson para deque
     void fordJohnsonDeque(std::deque<int>& deq);
     void insertionSortDeque(std::deque<int>& deq);
     
-    // Utilidades de tiempo
     double getTime();
     double timeDifference(double start, double end);
 };
