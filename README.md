@@ -1,0 +1,1 @@
+My implementation for all the cpp projects. I still need to evaluate all of them so there might be changes in the future. If you see any mistakes or any forbidden function you can contact me or open a pull request or an issue. 
